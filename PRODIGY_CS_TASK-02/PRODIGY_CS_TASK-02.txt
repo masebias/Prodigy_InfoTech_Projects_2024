@@ -1,0 +1,29 @@
+
+Pixel Manipulation for Image Encryption
+
+Develop a simple image encryption tool using pixel manipulation. 
+
+You can perform operations like swapping pixel values or applying a basic mathematical operation to each pixel and decrypt images.
+=======================================================================================================================================
+
+
+
+
+
+
+
+=======================================================================================================================================
+[removed from previous version]
+
+key = 50
+
+#In the given code context, the line key = 50 assigns the integer value 50 to the variable key. 
+#This variable key is then utilized as a parameter in the encryption and decryption functions subsequently defined in the code. 
+#The value assigned to key serves as the encryption/decryption key. 
+    #In this code, it implies that the encryption and decryption processes in the code are based 
+        #on a straightforward additive cipher where each pixel value in the image is shifted by 50 units 
+        #(using modulo 256 arithmetic) during encryption and reverted by the same amount during decryption. 
+#Altering the value of key would consequently alter the encryption and decryption process.  
+    #For instance, utilizing a different value such as key = 25 would yield a distinct encryption/decryption scheme.
+
+=======================================================================================================================================
